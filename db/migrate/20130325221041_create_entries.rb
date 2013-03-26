@@ -1,6 +1,6 @@
-class CreateWords < ActiveRecord::Migration
+class CreateEntries < ActiveRecord::Migration
   def change
-    create_table :words do |t|
+    create_table :entries do |t|
       t.column :word, :string
       t.column :definition, :string
 
