@@ -12,7 +12,7 @@
 # Configure Using Gemfile
 # gem 'pg'
 #
-# development:
+# production:
 #   adapter: postgresql
 #   encoding: unicode
 #   database: wikitionary_development
@@ -48,3 +48,8 @@ development:
   adapter: postgresql
   database: wikitionary_development
   host: localhost
+
+production:
+  adapter: postgresql
+  database: wikitionary_development
+  host: http://wikitionarysmpjl.herokuapp.com/

@@ -1,11 +1,11 @@
 Wikitionary::Application.routes.draw do
-  # resources :entries
+  resources :entries
 
-  match 'entries' => 'entries#create', :via => :post
-  match 'entries/:id' => 'entries#show', :via => :get
-  match 'entries/:id' => 'entries#update', :via => :put
-  match 'entries/:id' => 'entries#destroy', :via => :delete
-  match 'entries' => 'entries#index', :via => :get
+  # match 'entries' => 'entries#create', :via => :post
+  # match 'entries/:id' => 'entries#show', :via => :get
+  # match 'entries/:id' => 'entries#update', :via => :put
+  # match 'entries/:id' => 'entries#destroy', :via => :delete
+  # match 'entries' => 'entries#index', :via => :get
 
 
   # The priority is based upon order of creation:
